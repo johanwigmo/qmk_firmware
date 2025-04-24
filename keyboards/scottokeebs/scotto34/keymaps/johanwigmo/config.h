@@ -17,7 +17,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+#define BACKLIGHT_ON_STATE 0
+
+// Mouse
+#define MOUSEKEY_INTERVAL 50
+#define MOUSEKEY_TIME_TO_MAX 20
+#define MOUSEKEY_DELAY 300
+#define MOUSEKEY_WHEEL_DELAY 100
+#define MOUSE_WHEEL_INTERVAL 50
+#define MOUSE_WHEEL_TIME_TO_MAX 100
+
 // Define options
-#define TAPPING_TERM 135
+#define TAPPING_TERM 200
 #define PERMISSIVE_HOLD
-#define TAPPING_TERM_PER_KEY
+#define QUICK_TAP_TERM 0
